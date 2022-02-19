@@ -1,0 +1,14 @@
+:root {
+    background-color: #1B262C;
+    font-color: #ffffff;
+    button-color: #54123B;
+    
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,::before, ::after {
+    box-sizing: inherit;
+}
