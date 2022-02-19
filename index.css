@@ -1,16 +1,58 @@
 :root {
-    backgrounColor: #1B262C;
-    font-color: #ffffff;
-    button-color: #54123B;
+    --main-bg-color: #1B262C;
+    --font-color: #ffffff;
+    --button-color: #54123B;
     
 }
 
 html {
     box-sizing: border-box;
+   
 }
 
-*,::before, ::after {
+*,
+::before, ::after {
     box-sizing: inherit;
 }
 
+body{
+    background-color: var(--main-bg-color);
+}
 
+.navbar {
+    border: 2px solid red;
+    display: flex;
+
+}
+section[class*="nav-brand-logo"] {
+    border: 2px solid yellow;
+}
+
+
+
+
+
+ul[class*="nav-items"] {
+   border:2px solid blue;
+   display: flex;
+  flex-direction: row;
+   flex-wrap: nowrap;
+    flex:70%;
+    justify-content: flex-end;
+    margin: 0.5rem;
+    padding: 1rem;
+    list-style-type: none;
+   
+}
+li a{
+    border: 2px solid red;
+    margin: 0.3rem;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+
+
+section[class*="information-section"] {
+    
+}
