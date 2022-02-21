@@ -20,12 +20,26 @@ body{
 }
 
 .navbar {
-    border: 2px solid red;
+    
     display: flex;
+    padding: 0.5rem;
 
 }
 section[class*="nav-brand-logo"] {
-    border: 2px solid yellow;
+   
+
+    
+
+}
+
+section a {
+    font-size: 3rem;
+    color: var(--font-color);
+    text-decoration: none;
+    font-family: fantasy;
+    margin: 0.3rem;
+    padding:0.3rem;
+    
 }
 
 
