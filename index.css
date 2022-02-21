@@ -154,6 +154,11 @@ border-radius: 5px;
 }
 
 
+
+.card-info {
+    text-align: center;
+}
+
 section[class*="quote-section"] {
  
 
@@ -163,7 +168,16 @@ section[class*="quote-section"] {
 
 
 }
-.card-info {
-    text-align: center;
+q[class*="quote"] {
+     font-size: 200%;
+     text-align: center;
+     line-height: 1.5;
 }
+.cite {
+    float: right;
+    border: 2px solid red;
+    font-size:120%;
+    font-weight: bold;
+}
+
 /* main section ends here */
