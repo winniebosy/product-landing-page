@@ -26,7 +26,7 @@ header[class*="header-section"]{
     margin:-1rem 0 0 0;
     padding:0;
     max-width:100%;
-    height: 50vh;
+    height: auto;
     border: 2px solid red;
     
 }
@@ -80,9 +80,19 @@ li a:focus {
 .hero-section {
     display: flex;
     border: 5px solid red;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.information-section {
+    margin: 1rem;
+    padding: 2rem;
+
+
 }
 .placeholder {
     border: 2px solid yellow;
     width: 30rem;
     height: 15rem;
+    margin-left: 5rem;
 }
