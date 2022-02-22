@@ -246,6 +246,8 @@ button[class*="btn-signup-volunteer"] {
         padding: 2rem;
         text-align: left;
         
+    
+        
 
     }
     section h1 {
@@ -273,11 +275,17 @@ button[class*="btn-signup-volunteer"] {
     #signUp {
       margin: 2rem 0 0 0;  
       padding: 2rem 1rem;
+     
         
 
 }
+.signUp-title {
+    font-size: 1.5rem;
+}
 .signUp-info {
     padding: 0 0 0.5rem 0;
+    font-size: 100%;
+    line-height: 1/2;
 }
 
 
