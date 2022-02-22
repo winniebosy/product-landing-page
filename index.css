@@ -180,9 +180,23 @@ q[class*="quote"] {
 }
 
 .signUp {
-    border: 2px solid red;
     margin: 3rem 3rem 0 3rem;
+    background-color:#3882f6;
+    font-weight: bolder;
+    padding: 1rem;
+
     
+}
+h2[class*="signUp-title"] {
+    margin: 0.5rem;
+    text-align: start;
+
+
+}
+button[class*="btn-signup-volunteer"] {
+    float: right;
+    margin: -4rem 0 0 1rem;;
+
 }
 
 /* main section ends here */
