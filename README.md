@@ -1,5 +1,5 @@
 # product-landing-page
-A puppies Landing page
+A responsive puppies Landing page
 ## Technologies Used:
 - HTML5
 - CSS3
