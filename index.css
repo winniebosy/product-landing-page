@@ -200,3 +200,15 @@ button[class*="btn-signup-volunteer"] {
 }
 
 /* main section ends here */
+
+
+/* footer section */
+  footer {
+      text-align: center;
+      background-color: #022635;
+      padding: 2rem;
+      margin: 2rem 0 0 0;
+  }
+
+
+/* footer section ends here */
