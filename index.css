@@ -175,9 +175,14 @@ q[class*="quote"] {
 }
 .cite {
     float: right;
-    border: 2px solid red;
     font-size:120%;
     font-weight: bold;
+}
+
+.signUp {
+    border: 2px solid red;
+    margin: 3rem 3rem 0 3rem;
+    
 }
 
 /* main section ends here */
